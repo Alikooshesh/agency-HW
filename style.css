@@ -1,0 +1,180 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    z-index: 99;
+}
+
+header h2{
+    color: rgb(223, 219, 25);
+}
+
+.div-1 , .contact-div{
+    position: relative;
+    width: 100%;
+}
+
+.div1-bg , .contact-bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    height: 48rem;
+}
+
+.div1-text{
+    height: 48rem;
+}
+
+.div1-text button{
+    width: 18rem;
+    height: 3rem;
+    font-size: 150%;
+}
+
+.services-div{
+    width: 100%;
+}
+
+.services-div h1{
+    font-size: 400%;
+}
+
+.service-ico{
+    width: 12rem;
+    height: 12rem;
+}
+
+.service-ico i{
+    font-size: 500%;
+}
+
+.services-part p {
+    font-size: 250%;
+}
+
+.portfolio-div{
+    background-color: rgba(235, 235, 235, 0.479);
+}
+
+.porto-title{
+    font-size: 400%;
+}
+
+.porto-posts-div{
+    width: 55%;
+}
+
+.porto-post{
+    margin-bottom: 1rem;
+}
+
+.porto-img:hover{
+    cursor: pointer;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.part-social{
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.5rem;
+}
+
+.part-social i{
+    font-size: 200%;
+}
+
+.brand-img{
+    width: 20%;
+    margin-right: 3rem;
+}
+
+.contact-bg{
+    height: 35rem;
+}
+
+.contact-input{
+    height: 4rem;
+}
+
+.contact-us button{
+    width: 20rem;
+    height: 4rem;
+}
+
+.modal-close{
+    width: 5%;
+    height: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .div-1 , .div1-bg , .div1-text{
+        height: 30rem;
+    }
+
+
+    .services-list{
+        flex-direction: column;
+    }
+
+    .porto-posts-div{
+        width: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .team-list{
+        width: 100% !important;
+        flex-direction: column;
+    }
+
+    .team-part {
+        width: 75% !important;
+        margin-bottom: 2.5rem;
+    }
+
+    .brands{
+        width: 100% !important;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .brand-img{
+        margin-bottom: 1rem;
+        margin-right: 0;
+    }
+
+    .contact-div , .contact-bg{
+        height: 43rem;
+    }
+
+    .contact-us{
+        padding-top: 0.2rem !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .contact-table{
+        flex-direction: column;
+    }
+
+    .contact-left , .contact-right{
+        width: 95% !important;
+    }
+
+    .contact-input{
+        margin-bottom: 0.2rem !important;
+    }
+}
